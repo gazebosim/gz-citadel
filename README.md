@@ -1,4 +1,4 @@
-= Acropolis Ignition Collection =
+# Acropolis Ignition Collection
 
 The acropolis collection is a set of ignition robotics libraries compatible between
 each other.
