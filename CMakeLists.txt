@@ -20,7 +20,7 @@ ign_configure_project()
 
 ign_find_package(ignition-common3 REQUIRED)
 ign_find_package(ignition-fuel_tools3 REQUIRED)
-ign_find_package(ignition-gazebo0 REQUIRED)
+ign_find_package(ignition-gazebo1 REQUIRED)
 ign_find_package(ignition-gui1 REQUIRED)
 ign_find_package(ignition-launch0 REQUIRED)
 ign_find_package(ignition-math6 REQUIRED)
