@@ -3,7 +3,7 @@ cmake_minimum_required(VERSION 3.10.2 FATAL_ERROR)
 #============================================================================
 # Initialize the project
 #============================================================================
-project(ignition-acropolis VERSION 1.0.1)
+project(ignition-blueprint VERSION 1.0.1)
 
 #============================================================================
 # Find ignition-cmake
@@ -20,16 +20,16 @@ ign_configure_project()
 
 ign_find_package(ignition-common3 REQUIRED)
 ign_find_package(ignition-fuel_tools3 REQUIRED)
-ign_find_package(ignition-gazebo1 REQUIRED)
-ign_find_package(ignition-gui1 REQUIRED)
-ign_find_package(ignition-launch0 REQUIRED)
+ign_find_package(ignition-gazebo2 REQUIRED)
+ign_find_package(ignition-gui2 REQUIRED)
+ign_find_package(ignition-launch REQUIRED)
 ign_find_package(ignition-math6 REQUIRED)
-ign_find_package(ignition-msgs3 REQUIRED)
+ign_find_package(ignition-msgs4 REQUIRED)
 ign_find_package(ignition-plugin1 REQUIRED)
 ign_find_package(ignition-physics1 REQUIRED)
-ign_find_package(ignition-sensors1 REQUIRED)
+ign_find_package(ignition-sensors2 REQUIRED)
 ign_find_package(ignition-tools REQUIRED)
-ign_find_package(ignition-transport6 REQUIRED)
+ign_find_package(ignition-transport7 REQUIRED)
 
 
 install(DIRECTORY gazebodistro DESTINATION ${IGN_DATA_INSTALL_DIR})

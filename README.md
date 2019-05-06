@@ -1,6 +1,6 @@
-# Acropolis Ignition Collection
+# Blueprint Ignition Collection
 
-The acropolis collection is a set of ignition robotics libraries compatible between
+The blueprint collection is a set of ignition robotics libraries compatible between
 each other.
 
 Ignition Robotics brings a fresh approach to simulation with a complete toolbox
