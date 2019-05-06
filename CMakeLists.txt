@@ -16,7 +16,7 @@ find_package(ignition-cmake2 2.0.0 REQUIRED)
 #============================================================================
 ign_configure_project()
 
-# all list of acropolis packages
+# all list of blueprint packages
 
 ign_find_package(ignition-common3 REQUIRED)
 ign_find_package(ignition-fuel_tools3 REQUIRED)
