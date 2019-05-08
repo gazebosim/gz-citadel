@@ -3,7 +3,7 @@ cmake_minimum_required(VERSION 3.10.2 FATAL_ERROR)
 #============================================================================
 # Initialize the project
 #============================================================================
-project(ignition-blueprint VERSION 1.0.1)
+project(ignition-blueprint VERSION 1.0.0)
 
 #============================================================================
 # Find ignition-cmake
@@ -22,7 +22,7 @@ ign_find_package(ignition-common3 REQUIRED)
 ign_find_package(ignition-fuel_tools3 REQUIRED)
 ign_find_package(ignition-gazebo2 REQUIRED)
 ign_find_package(ignition-gui2 REQUIRED)
-ign_find_package(ignition-launch REQUIRED)
+ign_find_package(ignition-launch1 REQUIRED)
 ign_find_package(ignition-math6 REQUIRED)
 ign_find_package(ignition-msgs4 REQUIRED)
 ign_find_package(ignition-plugin1 REQUIRED)
