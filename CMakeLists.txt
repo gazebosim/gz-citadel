@@ -4,13 +4,14 @@ cmake_minimum_required(VERSION 3.10.2 FATAL_ERROR)
 # Initialize the project
 #============================================================================
 project(ignition-blueprint VERSION 1.0.0)
-ign_configure_project(VERSION_SUFFIX pre1)
 
 #============================================================================
 # Find ignition-cmake
 #============================================================================
 # If you get an error at this line, you need to install ignition-cmake
 find_package(ignition-cmake2 2.0.0 REQUIRED)
+
+ign_configure_project(VERSION_SUFFIX pre1)
 
 #============================================================================
 # Configure the project
