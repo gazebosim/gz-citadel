@@ -11,12 +11,10 @@ project(ignition-blueprint VERSION 1.0.0)
 # If you get an error at this line, you need to install ignition-cmake
 find_package(ignition-cmake2 2.0.0 REQUIRED)
 
-ign_configure_project(VERSION_SUFFIX pre1)
-
 #============================================================================
 # Configure the project
 #============================================================================
-ign_configure_project()
+ign_configure_project(VERSION_SUFFIX pre1)
 
 # all list of blueprint packages
 
