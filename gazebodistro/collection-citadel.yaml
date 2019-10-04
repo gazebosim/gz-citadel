@@ -6,7 +6,7 @@ repositories:
   ign-common:
     type: hg
     url: https://bitbucket.org/ignitionrobotics/ign-common
-    version: ign-common3
+    version: ign-common4
   ign-fuel-tools:
     type: hg
     url: https://bitbucket.org/ignitionrobotics/ign-fuel-tools
@@ -14,11 +14,11 @@ repositories:
   ign-gazebo:
     type: hg
     url: https://bitbucket.org/ignitionrobotics/ign-gazebo
-    version: ign-gazebo2
+    version: ign-gazebo3
   ign-gui:
     type: hg
     url: https://bitbucket.org/ignitionrobotics/ign-gui
-    version: ign-gui2
+    version: ign-gui3
   ign-launch:
     type: hg
     url: https://bitbucket.org/ignitionrobotics/ign-launch
@@ -42,20 +42,20 @@ repositories:
   ign-rendering:
     type: hg
     url: https://bitbucket.org/ignitionrobotics/ign-rendering
-    version: ign-rendering2
+    version: ign-rendering3
   ign-sensors:
     type: hg
     url: https://bitbucket.org/ignitionrobotics/ign-sensors
-    version: ign-sensors2
+    version: ign-sensors3
   ign-tools:
     type: hg
     url: https://bitbucket.org/ignitionrobotics/ign-tools
-    version: ign-tools0
+    version: ign-tools1
   ign-transport:
     type: hg
     url: https://bitbucket.org/ignitionrobotics/ign-transport
-    version: ign-transport7
+    version: ign-transport8
   sdformat:
     type: hg
     url: https://bitbucket.org/osrf/sdformat
-    version: sdf8
+    version: sdf9
