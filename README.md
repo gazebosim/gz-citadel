@@ -1,4 +1,4 @@
-# Blueprint Ignition Collection
+# Citadel Ignition Collection
 
 The citadel collection is a set of ignition robotics libraries compatible between
 each other.
