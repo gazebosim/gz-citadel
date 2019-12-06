@@ -14,19 +14,19 @@ find_package(ignition-cmake2 2.0.0 REQUIRED)
 #============================================================================
 # Configure the project
 #============================================================================
-ign_configure_project()
+ign_configure_project(VERSION_SUFFIX pre1)
 
 # all list of citadel packages
 
-ign_find_package(ignition-common4 REQUIRED)
-ign_find_package(ignition-fuel_tools3 REQUIRED)
+ign_find_package(ignition-common3 REQUIRED)
+ign_find_package(ignition-fuel_tools4 REQUIRED)
 ign_find_package(ignition-gazebo3 REQUIRED)
 ign_find_package(ignition-gui3 REQUIRED)
-ign_find_package(ignition-launch1 REQUIRED)
+ign_find_package(ignition-launch2 REQUIRED)
 ign_find_package(ignition-math6 REQUIRED)
-ign_find_package(ignition-msgs4 REQUIRED)
+ign_find_package(ignition-msgs5 REQUIRED)
 ign_find_package(ignition-plugin1 REQUIRED)
-ign_find_package(ignition-physics1 REQUIRED)
+ign_find_package(ignition-physics2 REQUIRED)
 ign_find_package(ignition-sensors3 REQUIRED)
 ign_find_package(ignition-tools REQUIRED)
 ign_find_package(ignition-transport8 REQUIRED)
