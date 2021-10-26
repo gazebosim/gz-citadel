@@ -23,3 +23,5 @@ jobs:
       - name: Compile and test
         id: ci
         uses: ignition-tooling/action-ignition-ci@chapulina/focal/tests
+        with:
+          tests-enabled: false
