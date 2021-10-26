@@ -29,7 +29,7 @@ ign_find_package(ignition-physics2 REQUIRED VERSION 2.4)
 ign_find_package(ignition-plugin1 REQUIRED VERSION 1.2.1)
 ign_find_package(ignition-rendering3 REQUIRED VERSION 3.6)
 ign_find_package(ignition-sensors3 REQUIRED VERSION 3.3)
-ign_find_package(ignition-tools REQUIRED VERSION 1.3)
+ign_find_package(ignition-tools REQUIRED VERSION 1.4)
 ign_find_package(ignition-transport8 REQUIRED VERSION 8.2)
 ign_find_package(sdformat9 REQUIRED VERSION 9.6.1)
 
