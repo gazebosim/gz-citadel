@@ -1,6 +1,7 @@
 libignition-cmake2-dev
 libignition-common3-dev
 libignition-fuel-tools4-dev
+libignition-gazebo3-dev
 libignition-gui3-dev
 libignition-launch2-dev
 libignition-math6-dev
